@@ -1,0 +1,92 @@
+#mui-ten{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+#nut{
+    background-color: aqua;
+    border: 1px;
+    padding: 10px;
+}
+#nut:hover{
+    padding: 11px;
+    background-color: blanchedalmond;
+}
+#duong-dan:link{
+    background-color: rgb(204, 176, 230);
+    cursor: pointer;
+}
+#header{
+    margin-top: 20px;
+}
+#logo{
+    margin: 0;
+    margin-right: 20px;
+}
+#thu-hai{
+    margin: 0;
+    margin-right: 20px;
+}
+#ha-noi{
+    margin: 0;
+    margin-right: 60px;
+}
+#moi-nhat{
+    margin: 0;
+    margin-right: 20px;
+}
+#international{
+    margin: 0;
+    margin-right: 20px;
+}
+#danh-sach{
+    position: sticky;
+    top: 0;
+    
+}
+.menu{
+    color: black;
+    text-decoration: none;
+}
+.menu:hover{
+    color: red;
+}
+#danh-sach{
+    background-color: white;
+}
+#hehe{
+    text-align: right;
+}
+#du-lich{
+    text-decoration: none;
+}
+#am-thuc{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-weight: 500;
+}
+.khong-in-dam{
+    font-weight: 100;
+
+}
+#bai-lien-quan{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.fs-15{
+    font-size: 22px;
+}
+.ke-hang{
+    border-bottom: 1px solid #ccc;
+}
+.dan-cach-border{
+    margin: 10px 0 10px 0;
+}
+.text-center{
+    text-align: center;
+}
