@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="basic">
+        <li class="java">a</li>
+        <li class="app">b</li>
+        <li class="java">c</li>
+        <li class="app">d</li>
+    </ul>
+    <p>e</p>
+    <p id="tag">f</p>
+    <p class="java">g</p>
+    <p>h</p>
+    <p class="app">i</p>
+
+    <script src="./thu_vien/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+        // jquezy here....
+        // b1 các thẻ p
+        // $("p").css('border', '1px solid red')
+
+        // b4 các thẻ calss là java trong thẻ có id là basic
+        // $('#basic .java').css('border', '1px solid red')
+        // $('#basic .java').prepend('<li>a</li>')
+        $('#basic .java'.text('chu thi hang'))
+    })
+    </script>
+</body>
+</html>
