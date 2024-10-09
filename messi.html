@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="basic">
+            <li class="java">Đặng Công Diện</li>
+            <li class="app">Đặng Công Diện 2</li>
+            <li class="java">Đặng Công Diện 3</li>
+            <li class="app">Đặng Công Diện 4</li>
+        </ul>
+        <p>Đặng Công Diện 4</p>
+        <p id="tag">Đặng Công Diện 5</p>
+        <p class="java">Đặng Công Diện 6</p>
+        <p>Đặng Công Diện 7</p>
+        <p class="app">Đặng Công Diện 8 </p>
+        
+    <script src="./thu_vien/jquery-3.7.1.min.js"></script>
+    <script>
+        $("#basic .java ").css("border","1px solid red")
+        $("#basic .app").css("border","1px solid red")
+        $(document).ready(function() {
+            $("p").css('border', '1px solid blue',)
+            $("p").css('border-radius', '10px ',)
+            $("p").css('text-align', 'conter',)
+            $("p").css('background-color', 'gray',)
+        })
+    </script>
+</body>
+</html>
